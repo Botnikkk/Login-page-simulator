@@ -32,7 +32,7 @@ def login_create(file_path) :
     login_check(file_path)
     file.close()
 
-file_path = r"C:\Users\Nikhil\OneDrive\Desktop\database.txt"
+file_path = "database.txt
 try : 
     file = open(file_path, "r")
     print("File exists")
